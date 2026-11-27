@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@source "../views";
+@source "../js";
+@theme { --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif; --font-display: "Space Grotesk", sans-serif; --color-ink: #181717; --color-coral: #ff5c43; --color-lime: #dcff69; }
+html { scroll-behavior: smooth; }
+body { background: #f7f6f2; color: #181717; font-family: "DM Sans", sans-serif; }
+.display { font-family: "Space Grotesk", sans-serif; letter-spacing: -.055em; }
+.grain { background-image: radial-gradient(#ffffff12 .7px, transparent .7px); background-size: 5px 5px; }
